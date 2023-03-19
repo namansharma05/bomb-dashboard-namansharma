@@ -63,10 +63,10 @@ const configurations: { [env: string]: Configuration } = {
     refreshInterval: 10000,
   },
   production: {
-    chainId: 97,
-    networkName: 'BNB Smart Chain Chapel Testnet by Ankr RPC',
-    ftmscanUrl: 'https://testnet.bscscan.com/',
-    defaultProvider: 'https://rpc.ankr.com/bsc_testnet_chapel/',
+    chainId: 56,
+    networkName: 'BSC Mainnet',
+    ftmscanUrl: 'https://bscscan.com',
+    defaultProvider: 'https://rpc.ankr.com/bsc/',
     deployments: require('./bomb-finance/deployments/deployments.mainnet.json'),
     externalTokens: {
       WBNB: ['0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18],
